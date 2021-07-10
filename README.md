@@ -143,8 +143,8 @@ Node.js runs in a single process and the application code runs in a single threa
 **Step 01**: Create a project directory
 
 ```bash
-mkdir myapp
-cd myapp
+mkdir myfirstapp
+cd myfirstapp
 ```
 
 **Step 02**: Initialize project and link it to npm
@@ -153,7 +153,7 @@ cd myapp
 npm init
 ```
 
-This creates a `package.json` file in your myapp folder. The file contains references for all npm packages you have downloaded to your project. The command will prompt you to enter a number of things.
+This creates a `package.json` file in your myfirstapp folder. The file contains references for all npm packages you have downloaded to your project. The command will prompt you to enter a number of things.
 You can enter your way through all of them EXCEPT this one:
 
 ```bash
@@ -166,7 +166,7 @@ Rename this to:
 app.js
 ```
 
-**Step 03**: Install Express in the myapp directory
+**Step 03**: Install Express in the myfirstapp directory
 
 ```bash
 npm install express --save
